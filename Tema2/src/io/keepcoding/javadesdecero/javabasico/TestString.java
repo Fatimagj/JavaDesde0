@@ -6,7 +6,7 @@ public class TestString {
 		String str = "My awesome String";
 		
 		System.out.println("Length: " + str.length()); //para la longitud de una cadena
-		System.out.println("Contains: " + str.contains("aw"));
+		System.out.println("Contains: " + str.contains("aw")); //muy habitual usarlo en condicionales
 		//Accedemos directamente a las posiciones desde el 0 hasta el length()-1
 		System.out.println("substring solo begin: " + str.substring(11)); //sirve para cortar una cadena
 		System.out.println("substring begin y end: " + str.substring(12, 13));
